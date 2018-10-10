@@ -1,10 +1,11 @@
 {
-  "name": "contact-manager-cli",
-  "version": "1.0.0",
-  "main": "app.js",  
+  "name": "contacty",
+  "version": "1.0.1",
   "description": "A command-line contact management system",
   "author": "Rania Sayed",
   "license": "MIT",
+  "preferGlobal": true,
+  "bin": "./contact.js",
   "dependencies": {
     "commander": "^2.19.0",
     "inquirer": "^6.2.0",
