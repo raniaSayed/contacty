@@ -1,0 +1,13 @@
+{
+  "name": "contact-manager-cli",
+  "version": "1.0.0",
+  "main": "app.js",  
+  "description": "A command-line contact management system",
+  "author": "Rania Sayed",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.0",
+    "mongoose": "^5.3.2"
+  }
+}
