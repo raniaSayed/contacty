@@ -19,6 +19,10 @@ These instructions will get you a copy of the project up and running on your loc
 <h3>To run App Locally on Ububtu:</h3> 
 follow this commands
 
+$ sudo service mongod start
+
+$ cd {project_folder}/
+
 $ npm install
 
 $ sudo npm link
