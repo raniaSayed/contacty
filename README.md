@@ -27,7 +27,7 @@ $ npm install
 
 $ sudo npm link
 
-$ contacty
+$ contacty --help (to see cli functions/options)
 
 
 <h2>Author</h2>
