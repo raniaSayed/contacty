@@ -1,0 +1,17 @@
+
+version: "2"
+services:
+  cli:
+    container_name: contactycli
+    build: .
+    command: contacty l
+    links:
+      - "mongoimage"
+  mongoimage:
+    container_name: contactymongo
+    image: mongo:latest
+    # volumes:
+    #   - /data/mongodb/db:/data/db
+    ports:
+      - "27017:27017"
+
